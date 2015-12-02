@@ -1,0 +1,105 @@
+01:11:13.905 sip_endpoint.c  .Module "mod-pjsua-log" registered
+01:11:13.905 sip_endpoint.c  .Module "mod-tsx-layer" registered
+01:11:13.905 sip_endpoint.c  .Module "mod-stateful-util" registered
+01:11:13.905 sip_endpoint.c  .Module "mod-ua" registered
+01:11:13.905 sip_endpoint.c  .Module "mod-100rel" registered
+01:11:13.905 sip_endpoint.c  .Module "mod-pjsua" registered
+01:11:13.905 sip_endpoint.c  .Module "mod-invite" registered
+01:11:14.894     alsa_dev.c  ..Added sound device default:CARD=AudioPCI
+01:11:14.895     alsa_dev.c  ..Added sound device front:CARD=AudioPCI,DEV=0
+01:11:14.912     alsa_dev.c  ..Added sound device dmix:CARD=AudioPCI,DEV=0
+01:11:14.918     alsa_dev.c  ..Added sound device dmix:CARD=AudioPCI,DEV=1
+01:11:14.934     alsa_dev.c  ..Added sound device dsnoop:CARD=AudioPCI,DEV=0
+01:11:14.936     alsa_dev.c  ..Added sound device hw:CARD=AudioPCI,DEV=0
+01:11:14.936     alsa_dev.c  ..Added sound device hw:CARD=AudioPCI,DEV=1
+01:11:14.937     alsa_dev.c  ..Added sound device plughw:CARD=AudioPCI,DEV=0
+01:11:14.937     alsa_dev.c  ..Added sound device plughw:CARD=AudioPCI,DEV=1
+01:11:14.937     alsa_dev.c  ..ALSA driver found 9 devices
+01:11:14.937     alsa_dev.c  ..ALSA initialized
+01:11:14.937          pjlib  ..select() I/O Queue created (0xa956ac4)
+01:11:14.938   conference.c  ..Creating conference bridge with 254 ports
+01:11:14.938   Master/sound  ..Using delay buffer with WSOLA.
+01:11:14.959    pjsua_vid.c  ..Initializing video subsystem..
+01:11:14.962 ffmpeg_vid_cod  ...Cannot find H264 encoder in ffmpeg library
+01:11:14.962 colorbar_dev.c  ...Colorbar video src initialized with 1 device(s):
+01:11:14.962 colorbar_dev.c  ... 0: Colorbar generator
+01:11:14.963      sdl_dev.c !SDL_Init() error: No available video device
+01:11:14.964 sip_endpoint.c !.Module "mod-evsub" registered
+01:11:14.964 sip_endpoint.c  .Module "mod-presence" registered
+01:11:14.964        evsub.c  .Event pkg "presence" registered by mod-presence
+01:11:14.964 sip_endpoint.c  .Module "mod-mwi" registered
+01:11:14.964        evsub.c  .Event pkg "message-summary" registered by mod-mwi
+01:11:14.964 sip_endpoint.c  .Module "mod-refer" registered
+01:11:14.964        evsub.c  .Event pkg "refer" registered by mod-refer
+01:11:14.964 sip_endpoint.c  .Module "mod-pjsua-pres" registered
+01:11:14.965 sip_endpoint.c  .Module "mod-pjsua-im" registered
+01:11:14.965 sip_endpoint.c  .Module "mod-pjsua-options" registered
+01:11:14.965   pjsua_core.c  .1 SIP worker threads created
+01:11:14.965   pjsua_core.c  .pjsua version 2.2.1-svn for Linux-2.6.38.8/i686/glibc-2.13 initialized
+01:11:14.965   pjsua_core.c  .PJSUA state changed: CREATED --> INIT
+01:11:14.965   pjsua_core.c  PJSUA state changed: INIT --> STARTING
+01:11:14.965 sip_endpoint.c  .Module "mod-unsolicited-mwi" registered
+01:11:14.965   pjsua_core.c  .PJSUA state changed: STARTING --> RUNNING
+01:11:27.024      systest.c  Running Audio Tone Playback Test
+01:11:27.024    pjsua_aud.c  Conf connect: 1 --> 0
+01:11:27.024    pjsua_aud.c  .Set sound device: capture=-1, playback=-2
+01:11:27.025    pjsua_aud.c  ..Opening sound device PCM@8000/1/20ms
+01:11:27.025     alsa_dev.c  ...open_playback: Open playback device 'default:CARD=AudioPCI'
+01:11:27.038     alsa_dev.c  ...Opened device alsa(default:CARD=AudioPCI) for playing, sample rate=8000, ch=1, bits=16, period size=160 frames, latency=149 ms
+01:11:27.038     alsa_dev.c  ...open_capture: Open capture device 'default:CARD=AudioPCI'
+01:11:27.059     alsa_dev.c  ...Opened device alsa(default:CARD=AudioPCI) for capture, sample rate=8000, ch=1, bits=16, period size=160 frames, latency=106 ms
+01:11:27.076   conference.c  .Port 1 (ringback) transmitting to port 0 (default:CARD=AudioPCI)
+01:11:27.076     alsa_dev.c !ca_thread_func(1793): Set thread priority for audio capture thread.
+01:11:37.343    pjsua_aud.c !Closing sound device after idle for 0 second(s)
+01:11:37.343    pjsua_aud.c  .Closing default:CARD=AudioPCI sound playback device and default:CARD=AudioPCI sound capture device
+01:11:48.736   pjsua_core.c !Shutting down, flags=0...
+01:11:48.736   pjsua_core.c  PJSUA state changed: RUNNING --> CLOSING
+01:11:48.743   pjsua_call.c  .Hangup all calls..
+01:11:48.743  pjsua_media.c  .Call 0: deinitializing media..
+01:11:48.743  pjsua_media.c  .Call 1: deinitializing media..
+01:11:48.743  pjsua_media.c  .Call 2: deinitializing media..
+01:11:48.744  pjsua_media.c  .Call 3: deinitializing media..
+01:11:48.744   pjsua_pres.c  .Shutting down presence..
+01:11:49.750   pjsua_core.c  .Destroying...
+01:11:49.750  pjsua_media.c  .Shutting down media..
+01:11:49.998    pjsua_vid.c  ..Destroying video subsystem..
+01:11:49.999    pjsua_vid.c  ...Window 0: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 1: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 2: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 3: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 4: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 5: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 6: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 7: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 8: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 9: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 10: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 11: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 12: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 13: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 14: destroying..
+01:11:49.999    pjsua_vid.c  ...Window 15: destroying..
+01:11:49.999 sip_endpoint.c  .Destroying endpoing instance..
+01:11:49.999 sip_transactio  .Stopping transaction layer module
+01:11:49.999 sip_transactio  .Stopped transaction layer module
+01:11:49.999 sip_endpoint.c  .Module "mod-unsolicited-mwi" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-pjsua-options" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-pjsua-im" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-pjsua-pres" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-pjsua" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-stateful-util" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-refer" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-mwi" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-presence" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-evsub" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-invite" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-100rel" unregistered
+01:11:49.999 sip_endpoint.c  .Module "mod-ua" unregistered
+01:11:49.999 sip_transactio  .Transaction layer module destroyed
+01:11:50.000 sip_endpoint.c  .Module "mod-tsx-layer" unregistered
+01:11:50.000 sip_endpoint.c  .Module "mod-msg-print" unregistered
+01:11:50.000 sip_endpoint.c  .Module "mod-pjsua-log" unregistered
+01:11:50.000 sip_transport.  .Destroying transport manager
+01:11:50.000 sip_endpoint.c  .Endpoint 0xa9110f4 destroyed
+01:11:50.000   pjsua_core.c  .PJSUA state changed: CLOSING --> NULL
+01:11:50.000   pjsua_core.c  .PJSUA destroyed...

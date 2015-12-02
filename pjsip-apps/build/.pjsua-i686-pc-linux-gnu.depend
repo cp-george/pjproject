@@ -1,0 +1,1451 @@
+output/pjsua-i686-pc-linux-gnu/main.o: ../src/pjsua/main.c ../src/pjsua/pjsua_app.h \
+ ../src/pjsua/pjsua_app_common.h \
+ /root/pjproject/pjsip/include/pjsua-lib/pjsua.h \
+ /root/pjproject/pjsip/include/pjsip.h \
+ /root/pjproject/pjsip/include/pjsip/sip_types.h \
+ /root/pjproject/pjsip/include/pjsip/sip_config.h \
+ /root/pjproject/pjlib/include/pj/types.h \
+ /root/pjproject/pjlib/include/pj/config.h \
+ /root/pjproject/pjlib/include/pj/compat/cc_gcc.h \
+ /root/pjproject/pjlib/include/pj/compat/os_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/m_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /root/pjproject/pjlib/include/pj/config_site.h \
+ /root/pjproject/pjlib/include/pj/config_site_sample.h \
+ /root/pjproject/pjsip/include/pjsip/sip_autoconf.h \
+ /root/pjproject/pjsip/include/pjsip/sip_errno.h \
+ /root/pjproject/pjlib/include/pj/errno.h \
+ /root/pjproject/pjlib/include/pj/compat/errno.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_uri.h \
+ /root/pjproject/pjlib/include/pj/list.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/types.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/config.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /root/pjproject/pjsip/include/pjsip/sip_tel_uri.h \
+ /root/pjproject/pjsip/include/pjsip/sip_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_multipart.h \
+ /root/pjproject/pjsip/include/pjsip/sip_parser.h \
+ /root/pjproject/pjsip/include/pjsip/sip_event.h \
+ /root/pjproject/pjlib/include/pj/timer.h \
+ /root/pjproject/pjlib/include/pj/lock.h \
+ /root/pjproject/pjsip/include/pjsip/sip_module.h \
+ /root/pjproject/pjsip/include/pjsip/sip_endpoint.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport.h \
+ /root/pjproject/pjsip/include/pjsip/sip_resolve.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns.h \
+ /root/pjproject/pjlib/include/pj/sock.h \
+ /root/pjproject/pjlib/include/pj/ioqueue.h \
+ /root/pjproject/pjsip/include/pjsip/sip_util.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_udp.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_loop.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tcp.h \
+ /root/pjproject/pjlib/include/pj/sock_qos.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tls.h \
+ /root/pjproject/pjlib/include/pj/pool.h \
+ /root/pjproject/pjlib/include/pj/ssl_sock.h \
+ /root/pjproject/pjlib/include/pj/string.h \
+ /root/pjproject/pjlib/include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_aka.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transaction.h \
+ /root/pjproject/pjsip/include/pjsip/sip_ua_layer.h \
+ /root/pjproject/pjsip/include/pjsip/sip_dialog.h \
+ /root/pjproject/pjlib/include/pj/assert.h \
+ /root/pjproject/pjlib/include/pj/compat/assert.h /usr/include/assert.h \
+ /root/pjproject/pjmedia/include/pjmedia.h \
+ /root/pjproject/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /root/pjproject/pjmedia/include/pjmedia/types.h \
+ /root/pjproject/pjmedia/include/pjmedia/config.h \
+ /root/pjproject/pjmedia/include/pjmedia/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/avi_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/port.h \
+ /root/pjproject/pjmedia/include/pjmedia/clock.h \
+ /root/pjproject/pjmedia/include/pjmedia/event.h \
+ /root/pjproject/pjmedia/include/pjmedia/format.h \
+ /root/pjproject/pjmedia/include/pjmedia/signatures.h \
+ /root/pjproject/pjmedia/include/pjmedia/frame.h \
+ /root/pjproject/pjlib/include/pj/os.h \
+ /root/pjproject/pjmedia/include/pjmedia/bidirectional.h \
+ /root/pjproject/pjmedia/include/pjmedia/circbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/conference.h \
+ /root/pjproject/pjmedia/include/pjmedia/converter.h \
+ /root/pjproject/pjmedia/include/pjmedia/delaybuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/endpoint.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport.h \
+ /root/pjproject/pjmedia/include/pjmedia/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/g711.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/types.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/jbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/master_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/mem_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/null_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/plc.h \
+ /root/pjproject/pjmedia/include/pjmedia/resample.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp_xr.h \
+ /root/pjproject/pjlib/include/pj/math.h \
+ /root/pjproject/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp_neg.h \
+ /root/pjproject/pjmedia/include/pjmedia/silencedet.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/splitcomb.h \
+ /root/pjproject/pjmedia/include/pjmedia/stereo.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream_common.h \
+ /root/pjproject/pjmedia/include/pjmedia/tonegen.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_ice.h \
+ /root/pjproject/pjnath/include/pjnath/ice_strans.h \
+ /root/pjproject/pjnath/include/pjnath/ice_session.h \
+ /root/pjproject/pjnath/include/pjnath/types.h \
+ /root/pjproject/pjnath/include/pjnath/config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_session.h \
+ /root/pjproject/pjnath/include/pjnath/stun_msg.h \
+ /root/pjproject/pjnath/include/pjnath/stun_auth.h \
+ /root/pjproject/pjnath/include/pjnath/stun_config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_transaction.h \
+ /root/pjproject/pjnath/include/pjnath/errno.h \
+ /root/pjproject/pjnath/include/pjnath/stun_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_session.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_loop.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_srtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_udp.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_port.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_tee.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_playlist.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/wave.h \
+ /root/pjproject/pjmedia/include/pjmedia/wsola.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/passthrough.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/l16.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/gsm.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/speex.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ilbc.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g722.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g7221.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/openh264.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/silk.h \
+ /root/pjproject/pjmedia/include/pjmedia_videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /root/pjproject/pjsip/include/pjsip_ua.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_inv.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_regc.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_replaces.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_xfer.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub.h \
+ /root/pjproject/pjsip/include/pjsip-simple/types.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_100rel.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_timer.h \
+ /root/pjproject/pjsip/include/pjsip_simple.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub_msg.h \
+ /root/pjproject/pjsip/include/pjsip-simple/iscomposing.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/xml.h \
+ /root/pjproject/pjsip/include/pjsip-simple/mwi.h \
+ /root/pjproject/pjsip/include/pjsip-simple/presence.h \
+ /root/pjproject/pjsip/include/pjsip-simple/pidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/xpidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/rpid.h \
+ /root/pjproject/pjsip/include/pjsip-simple/publish.h \
+ /root/pjproject/pjnath/include/pjnath.h \
+ /root/pjproject/pjnath/include/pjnath/nat_detect.h \
+ /root/pjproject/pjlib-util/include/pjlib-util.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/errno.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/getopt.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/base64.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/crc32.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns_server.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/string.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/json.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/stun_simple.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/pcap.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/http_client.h \
+ /root/pjproject/pjlib/include/pj/activesock.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_console.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_imp.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /root/pjproject/pjlib/include/pjlib.h \
+ /root/pjproject/pjlib/include/pj/addr_resolv.h \
+ /root/pjproject/pjlib/include/pj/array.h \
+ /root/pjproject/pjlib/include/pj/ctype.h \
+ /root/pjproject/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /root/pjproject/pjlib/include/pj/except.h \
+ /root/pjproject/pjlib/include/pj/compat/setjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/setjmp2.h \
+ /root/pjproject/pjlib/include/pj/log.h \
+ /root/pjproject/pjlib/include/pj/fifobuf.h \
+ /root/pjproject/pjlib/include/pj/file_access.h \
+ /root/pjproject/pjlib/include/pj/file_io.h \
+ /root/pjproject/pjlib/include/pj/guid.h \
+ /root/pjproject/pjlib/include/pj/hash.h \
+ /root/pjproject/pjlib/include/pj/ip_helper.h \
+ /root/pjproject/pjlib/include/pj/pool_buf.h \
+ /root/pjproject/pjlib/include/pj/rand.h \
+ /root/pjproject/pjlib/include/pj/rbtree.h \
+ /root/pjproject/pjlib/include/pj/sock_select.h \
+ /root/pjproject/pjlib/include/pj/unicode.h /usr/include/signal.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h
+output/pjsua-i686-pc-linux-gnu/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src/pjsua/pjsua_app.h \
+ ../src/pjsua/pjsua_app_common.h \
+ /root/pjproject/pjsip/include/pjsua-lib/pjsua.h \
+ /root/pjproject/pjsip/include/pjsip.h \
+ /root/pjproject/pjsip/include/pjsip/sip_types.h \
+ /root/pjproject/pjsip/include/pjsip/sip_config.h \
+ /root/pjproject/pjlib/include/pj/types.h \
+ /root/pjproject/pjlib/include/pj/config.h \
+ /root/pjproject/pjlib/include/pj/compat/cc_gcc.h \
+ /root/pjproject/pjlib/include/pj/compat/os_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/m_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /root/pjproject/pjlib/include/pj/config_site.h \
+ /root/pjproject/pjlib/include/pj/config_site_sample.h \
+ /root/pjproject/pjsip/include/pjsip/sip_autoconf.h \
+ /root/pjproject/pjsip/include/pjsip/sip_errno.h \
+ /root/pjproject/pjlib/include/pj/errno.h \
+ /root/pjproject/pjlib/include/pj/compat/errno.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_uri.h \
+ /root/pjproject/pjlib/include/pj/list.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/types.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/config.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /root/pjproject/pjsip/include/pjsip/sip_tel_uri.h \
+ /root/pjproject/pjsip/include/pjsip/sip_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_multipart.h \
+ /root/pjproject/pjsip/include/pjsip/sip_parser.h \
+ /root/pjproject/pjsip/include/pjsip/sip_event.h \
+ /root/pjproject/pjlib/include/pj/timer.h \
+ /root/pjproject/pjlib/include/pj/lock.h \
+ /root/pjproject/pjsip/include/pjsip/sip_module.h \
+ /root/pjproject/pjsip/include/pjsip/sip_endpoint.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport.h \
+ /root/pjproject/pjsip/include/pjsip/sip_resolve.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns.h \
+ /root/pjproject/pjlib/include/pj/sock.h \
+ /root/pjproject/pjlib/include/pj/ioqueue.h \
+ /root/pjproject/pjsip/include/pjsip/sip_util.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_udp.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_loop.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tcp.h \
+ /root/pjproject/pjlib/include/pj/sock_qos.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tls.h \
+ /root/pjproject/pjlib/include/pj/pool.h \
+ /root/pjproject/pjlib/include/pj/ssl_sock.h \
+ /root/pjproject/pjlib/include/pj/string.h \
+ /root/pjproject/pjlib/include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_aka.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transaction.h \
+ /root/pjproject/pjsip/include/pjsip/sip_ua_layer.h \
+ /root/pjproject/pjsip/include/pjsip/sip_dialog.h \
+ /root/pjproject/pjlib/include/pj/assert.h \
+ /root/pjproject/pjlib/include/pj/compat/assert.h /usr/include/assert.h \
+ /root/pjproject/pjmedia/include/pjmedia.h \
+ /root/pjproject/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /root/pjproject/pjmedia/include/pjmedia/types.h \
+ /root/pjproject/pjmedia/include/pjmedia/config.h \
+ /root/pjproject/pjmedia/include/pjmedia/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/avi_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/port.h \
+ /root/pjproject/pjmedia/include/pjmedia/clock.h \
+ /root/pjproject/pjmedia/include/pjmedia/event.h \
+ /root/pjproject/pjmedia/include/pjmedia/format.h \
+ /root/pjproject/pjmedia/include/pjmedia/signatures.h \
+ /root/pjproject/pjmedia/include/pjmedia/frame.h \
+ /root/pjproject/pjlib/include/pj/os.h \
+ /root/pjproject/pjmedia/include/pjmedia/bidirectional.h \
+ /root/pjproject/pjmedia/include/pjmedia/circbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/conference.h \
+ /root/pjproject/pjmedia/include/pjmedia/converter.h \
+ /root/pjproject/pjmedia/include/pjmedia/delaybuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/endpoint.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport.h \
+ /root/pjproject/pjmedia/include/pjmedia/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/g711.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/types.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/jbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/master_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/mem_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/null_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/plc.h \
+ /root/pjproject/pjmedia/include/pjmedia/resample.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp_xr.h \
+ /root/pjproject/pjlib/include/pj/math.h \
+ /root/pjproject/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp_neg.h \
+ /root/pjproject/pjmedia/include/pjmedia/silencedet.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/splitcomb.h \
+ /root/pjproject/pjmedia/include/pjmedia/stereo.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream_common.h \
+ /root/pjproject/pjmedia/include/pjmedia/tonegen.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_ice.h \
+ /root/pjproject/pjnath/include/pjnath/ice_strans.h \
+ /root/pjproject/pjnath/include/pjnath/ice_session.h \
+ /root/pjproject/pjnath/include/pjnath/types.h \
+ /root/pjproject/pjnath/include/pjnath/config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_session.h \
+ /root/pjproject/pjnath/include/pjnath/stun_msg.h \
+ /root/pjproject/pjnath/include/pjnath/stun_auth.h \
+ /root/pjproject/pjnath/include/pjnath/stun_config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_transaction.h \
+ /root/pjproject/pjnath/include/pjnath/errno.h \
+ /root/pjproject/pjnath/include/pjnath/stun_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_session.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_loop.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_srtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_udp.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_port.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_tee.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_playlist.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/wave.h \
+ /root/pjproject/pjmedia/include/pjmedia/wsola.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/passthrough.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/l16.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/gsm.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/speex.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ilbc.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g722.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g7221.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/openh264.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/silk.h \
+ /root/pjproject/pjmedia/include/pjmedia_videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /root/pjproject/pjsip/include/pjsip_ua.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_inv.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_regc.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_replaces.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_xfer.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub.h \
+ /root/pjproject/pjsip/include/pjsip-simple/types.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_100rel.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_timer.h \
+ /root/pjproject/pjsip/include/pjsip_simple.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub_msg.h \
+ /root/pjproject/pjsip/include/pjsip-simple/iscomposing.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/xml.h \
+ /root/pjproject/pjsip/include/pjsip-simple/mwi.h \
+ /root/pjproject/pjsip/include/pjsip-simple/presence.h \
+ /root/pjproject/pjsip/include/pjsip-simple/pidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/xpidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/rpid.h \
+ /root/pjproject/pjsip/include/pjsip-simple/publish.h \
+ /root/pjproject/pjnath/include/pjnath.h \
+ /root/pjproject/pjnath/include/pjnath/nat_detect.h \
+ /root/pjproject/pjlib-util/include/pjlib-util.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/errno.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/getopt.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/base64.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/crc32.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns_server.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/string.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/json.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/stun_simple.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/pcap.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/http_client.h \
+ /root/pjproject/pjlib/include/pj/activesock.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_console.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_imp.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /root/pjproject/pjlib/include/pjlib.h \
+ /root/pjproject/pjlib/include/pj/addr_resolv.h \
+ /root/pjproject/pjlib/include/pj/array.h \
+ /root/pjproject/pjlib/include/pj/ctype.h \
+ /root/pjproject/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /root/pjproject/pjlib/include/pj/except.h \
+ /root/pjproject/pjlib/include/pj/compat/setjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/setjmp2.h \
+ /root/pjproject/pjlib/include/pj/log.h \
+ /root/pjproject/pjlib/include/pj/fifobuf.h \
+ /root/pjproject/pjlib/include/pj/file_access.h \
+ /root/pjproject/pjlib/include/pj/file_io.h \
+ /root/pjproject/pjlib/include/pj/guid.h \
+ /root/pjproject/pjlib/include/pj/hash.h \
+ /root/pjproject/pjlib/include/pj/ip_helper.h \
+ /root/pjproject/pjlib/include/pj/pool_buf.h \
+ /root/pjproject/pjlib/include/pj/rand.h \
+ /root/pjproject/pjlib/include/pj/rbtree.h \
+ /root/pjproject/pjlib/include/pj/sock_select.h \
+ /root/pjproject/pjlib/include/pj/unicode.h
+output/pjsua-i686-pc-linux-gnu/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.c \
+ ../src/pjsua/pjsua_app_common.h \
+ /root/pjproject/pjsip/include/pjsua-lib/pjsua.h \
+ /root/pjproject/pjsip/include/pjsip.h \
+ /root/pjproject/pjsip/include/pjsip/sip_types.h \
+ /root/pjproject/pjsip/include/pjsip/sip_config.h \
+ /root/pjproject/pjlib/include/pj/types.h \
+ /root/pjproject/pjlib/include/pj/config.h \
+ /root/pjproject/pjlib/include/pj/compat/cc_gcc.h \
+ /root/pjproject/pjlib/include/pj/compat/os_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/m_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /root/pjproject/pjlib/include/pj/config_site.h \
+ /root/pjproject/pjlib/include/pj/config_site_sample.h \
+ /root/pjproject/pjsip/include/pjsip/sip_autoconf.h \
+ /root/pjproject/pjsip/include/pjsip/sip_errno.h \
+ /root/pjproject/pjlib/include/pj/errno.h \
+ /root/pjproject/pjlib/include/pj/compat/errno.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_uri.h \
+ /root/pjproject/pjlib/include/pj/list.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/types.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/config.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /root/pjproject/pjsip/include/pjsip/sip_tel_uri.h \
+ /root/pjproject/pjsip/include/pjsip/sip_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_multipart.h \
+ /root/pjproject/pjsip/include/pjsip/sip_parser.h \
+ /root/pjproject/pjsip/include/pjsip/sip_event.h \
+ /root/pjproject/pjlib/include/pj/timer.h \
+ /root/pjproject/pjlib/include/pj/lock.h \
+ /root/pjproject/pjsip/include/pjsip/sip_module.h \
+ /root/pjproject/pjsip/include/pjsip/sip_endpoint.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport.h \
+ /root/pjproject/pjsip/include/pjsip/sip_resolve.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns.h \
+ /root/pjproject/pjlib/include/pj/sock.h \
+ /root/pjproject/pjlib/include/pj/ioqueue.h \
+ /root/pjproject/pjsip/include/pjsip/sip_util.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_udp.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_loop.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tcp.h \
+ /root/pjproject/pjlib/include/pj/sock_qos.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tls.h \
+ /root/pjproject/pjlib/include/pj/pool.h \
+ /root/pjproject/pjlib/include/pj/ssl_sock.h \
+ /root/pjproject/pjlib/include/pj/string.h \
+ /root/pjproject/pjlib/include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_aka.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transaction.h \
+ /root/pjproject/pjsip/include/pjsip/sip_ua_layer.h \
+ /root/pjproject/pjsip/include/pjsip/sip_dialog.h \
+ /root/pjproject/pjlib/include/pj/assert.h \
+ /root/pjproject/pjlib/include/pj/compat/assert.h /usr/include/assert.h \
+ /root/pjproject/pjmedia/include/pjmedia.h \
+ /root/pjproject/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /root/pjproject/pjmedia/include/pjmedia/types.h \
+ /root/pjproject/pjmedia/include/pjmedia/config.h \
+ /root/pjproject/pjmedia/include/pjmedia/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/avi_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/port.h \
+ /root/pjproject/pjmedia/include/pjmedia/clock.h \
+ /root/pjproject/pjmedia/include/pjmedia/event.h \
+ /root/pjproject/pjmedia/include/pjmedia/format.h \
+ /root/pjproject/pjmedia/include/pjmedia/signatures.h \
+ /root/pjproject/pjmedia/include/pjmedia/frame.h \
+ /root/pjproject/pjlib/include/pj/os.h \
+ /root/pjproject/pjmedia/include/pjmedia/bidirectional.h \
+ /root/pjproject/pjmedia/include/pjmedia/circbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/conference.h \
+ /root/pjproject/pjmedia/include/pjmedia/converter.h \
+ /root/pjproject/pjmedia/include/pjmedia/delaybuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/endpoint.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport.h \
+ /root/pjproject/pjmedia/include/pjmedia/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/g711.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/types.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/jbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/master_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/mem_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/null_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/plc.h \
+ /root/pjproject/pjmedia/include/pjmedia/resample.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp_xr.h \
+ /root/pjproject/pjlib/include/pj/math.h \
+ /root/pjproject/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp_neg.h \
+ /root/pjproject/pjmedia/include/pjmedia/silencedet.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/splitcomb.h \
+ /root/pjproject/pjmedia/include/pjmedia/stereo.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream_common.h \
+ /root/pjproject/pjmedia/include/pjmedia/tonegen.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_ice.h \
+ /root/pjproject/pjnath/include/pjnath/ice_strans.h \
+ /root/pjproject/pjnath/include/pjnath/ice_session.h \
+ /root/pjproject/pjnath/include/pjnath/types.h \
+ /root/pjproject/pjnath/include/pjnath/config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_session.h \
+ /root/pjproject/pjnath/include/pjnath/stun_msg.h \
+ /root/pjproject/pjnath/include/pjnath/stun_auth.h \
+ /root/pjproject/pjnath/include/pjnath/stun_config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_transaction.h \
+ /root/pjproject/pjnath/include/pjnath/errno.h \
+ /root/pjproject/pjnath/include/pjnath/stun_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_session.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_loop.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_srtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_udp.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_port.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_tee.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_playlist.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/wave.h \
+ /root/pjproject/pjmedia/include/pjmedia/wsola.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/passthrough.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/l16.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/gsm.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/speex.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ilbc.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g722.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g7221.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/openh264.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/silk.h \
+ /root/pjproject/pjmedia/include/pjmedia_videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /root/pjproject/pjsip/include/pjsip_ua.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_inv.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_regc.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_replaces.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_xfer.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub.h \
+ /root/pjproject/pjsip/include/pjsip-simple/types.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_100rel.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_timer.h \
+ /root/pjproject/pjsip/include/pjsip_simple.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub_msg.h \
+ /root/pjproject/pjsip/include/pjsip-simple/iscomposing.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/xml.h \
+ /root/pjproject/pjsip/include/pjsip-simple/mwi.h \
+ /root/pjproject/pjsip/include/pjsip-simple/presence.h \
+ /root/pjproject/pjsip/include/pjsip-simple/pidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/xpidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/rpid.h \
+ /root/pjproject/pjsip/include/pjsip-simple/publish.h \
+ /root/pjproject/pjnath/include/pjnath.h \
+ /root/pjproject/pjnath/include/pjnath/nat_detect.h \
+ /root/pjproject/pjlib-util/include/pjlib-util.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/errno.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/getopt.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/base64.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/crc32.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns_server.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/string.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/json.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/stun_simple.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/pcap.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/http_client.h \
+ /root/pjproject/pjlib/include/pj/activesock.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_console.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_imp.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /root/pjproject/pjlib/include/pjlib.h \
+ /root/pjproject/pjlib/include/pj/addr_resolv.h \
+ /root/pjproject/pjlib/include/pj/array.h \
+ /root/pjproject/pjlib/include/pj/ctype.h \
+ /root/pjproject/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /root/pjproject/pjlib/include/pj/except.h \
+ /root/pjproject/pjlib/include/pj/compat/setjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/setjmp2.h \
+ /root/pjproject/pjlib/include/pj/log.h \
+ /root/pjproject/pjlib/include/pj/fifobuf.h \
+ /root/pjproject/pjlib/include/pj/file_access.h \
+ /root/pjproject/pjlib/include/pj/file_io.h \
+ /root/pjproject/pjlib/include/pj/guid.h \
+ /root/pjproject/pjlib/include/pj/hash.h \
+ /root/pjproject/pjlib/include/pj/ip_helper.h \
+ /root/pjproject/pjlib/include/pj/pool_buf.h \
+ /root/pjproject/pjlib/include/pj/rand.h \
+ /root/pjproject/pjlib/include/pj/rbtree.h \
+ /root/pjproject/pjlib/include/pj/sock_select.h \
+ /root/pjproject/pjlib/include/pj/unicode.h
+output/pjsua-i686-pc-linux-gnu/pjsua_app_common.o: ../src/pjsua/pjsua_app_common.c \
+ ../src/pjsua/pjsua_app_common.h \
+ /root/pjproject/pjsip/include/pjsua-lib/pjsua.h \
+ /root/pjproject/pjsip/include/pjsip.h \
+ /root/pjproject/pjsip/include/pjsip/sip_types.h \
+ /root/pjproject/pjsip/include/pjsip/sip_config.h \
+ /root/pjproject/pjlib/include/pj/types.h \
+ /root/pjproject/pjlib/include/pj/config.h \
+ /root/pjproject/pjlib/include/pj/compat/cc_gcc.h \
+ /root/pjproject/pjlib/include/pj/compat/os_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/m_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /root/pjproject/pjlib/include/pj/config_site.h \
+ /root/pjproject/pjlib/include/pj/config_site_sample.h \
+ /root/pjproject/pjsip/include/pjsip/sip_autoconf.h \
+ /root/pjproject/pjsip/include/pjsip/sip_errno.h \
+ /root/pjproject/pjlib/include/pj/errno.h \
+ /root/pjproject/pjlib/include/pj/compat/errno.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_uri.h \
+ /root/pjproject/pjlib/include/pj/list.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/types.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/config.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /root/pjproject/pjsip/include/pjsip/sip_tel_uri.h \
+ /root/pjproject/pjsip/include/pjsip/sip_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_multipart.h \
+ /root/pjproject/pjsip/include/pjsip/sip_parser.h \
+ /root/pjproject/pjsip/include/pjsip/sip_event.h \
+ /root/pjproject/pjlib/include/pj/timer.h \
+ /root/pjproject/pjlib/include/pj/lock.h \
+ /root/pjproject/pjsip/include/pjsip/sip_module.h \
+ /root/pjproject/pjsip/include/pjsip/sip_endpoint.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport.h \
+ /root/pjproject/pjsip/include/pjsip/sip_resolve.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns.h \
+ /root/pjproject/pjlib/include/pj/sock.h \
+ /root/pjproject/pjlib/include/pj/ioqueue.h \
+ /root/pjproject/pjsip/include/pjsip/sip_util.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_udp.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_loop.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tcp.h \
+ /root/pjproject/pjlib/include/pj/sock_qos.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tls.h \
+ /root/pjproject/pjlib/include/pj/pool.h \
+ /root/pjproject/pjlib/include/pj/ssl_sock.h \
+ /root/pjproject/pjlib/include/pj/string.h \
+ /root/pjproject/pjlib/include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_aka.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transaction.h \
+ /root/pjproject/pjsip/include/pjsip/sip_ua_layer.h \
+ /root/pjproject/pjsip/include/pjsip/sip_dialog.h \
+ /root/pjproject/pjlib/include/pj/assert.h \
+ /root/pjproject/pjlib/include/pj/compat/assert.h /usr/include/assert.h \
+ /root/pjproject/pjmedia/include/pjmedia.h \
+ /root/pjproject/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /root/pjproject/pjmedia/include/pjmedia/types.h \
+ /root/pjproject/pjmedia/include/pjmedia/config.h \
+ /root/pjproject/pjmedia/include/pjmedia/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/avi_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/port.h \
+ /root/pjproject/pjmedia/include/pjmedia/clock.h \
+ /root/pjproject/pjmedia/include/pjmedia/event.h \
+ /root/pjproject/pjmedia/include/pjmedia/format.h \
+ /root/pjproject/pjmedia/include/pjmedia/signatures.h \
+ /root/pjproject/pjmedia/include/pjmedia/frame.h \
+ /root/pjproject/pjlib/include/pj/os.h \
+ /root/pjproject/pjmedia/include/pjmedia/bidirectional.h \
+ /root/pjproject/pjmedia/include/pjmedia/circbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/conference.h \
+ /root/pjproject/pjmedia/include/pjmedia/converter.h \
+ /root/pjproject/pjmedia/include/pjmedia/delaybuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/endpoint.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport.h \
+ /root/pjproject/pjmedia/include/pjmedia/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/g711.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/types.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/jbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/master_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/mem_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/null_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/plc.h \
+ /root/pjproject/pjmedia/include/pjmedia/resample.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp_xr.h \
+ /root/pjproject/pjlib/include/pj/math.h \
+ /root/pjproject/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp_neg.h \
+ /root/pjproject/pjmedia/include/pjmedia/silencedet.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/splitcomb.h \
+ /root/pjproject/pjmedia/include/pjmedia/stereo.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream_common.h \
+ /root/pjproject/pjmedia/include/pjmedia/tonegen.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_ice.h \
+ /root/pjproject/pjnath/include/pjnath/ice_strans.h \
+ /root/pjproject/pjnath/include/pjnath/ice_session.h \
+ /root/pjproject/pjnath/include/pjnath/types.h \
+ /root/pjproject/pjnath/include/pjnath/config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_session.h \
+ /root/pjproject/pjnath/include/pjnath/stun_msg.h \
+ /root/pjproject/pjnath/include/pjnath/stun_auth.h \
+ /root/pjproject/pjnath/include/pjnath/stun_config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_transaction.h \
+ /root/pjproject/pjnath/include/pjnath/errno.h \
+ /root/pjproject/pjnath/include/pjnath/stun_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_session.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_loop.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_srtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_udp.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_port.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_tee.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_playlist.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/wave.h \
+ /root/pjproject/pjmedia/include/pjmedia/wsola.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/passthrough.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/l16.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/gsm.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/speex.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ilbc.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g722.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g7221.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/openh264.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/silk.h \
+ /root/pjproject/pjmedia/include/pjmedia_videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /root/pjproject/pjsip/include/pjsip_ua.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_inv.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_regc.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_replaces.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_xfer.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub.h \
+ /root/pjproject/pjsip/include/pjsip-simple/types.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_100rel.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_timer.h \
+ /root/pjproject/pjsip/include/pjsip_simple.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub_msg.h \
+ /root/pjproject/pjsip/include/pjsip-simple/iscomposing.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/xml.h \
+ /root/pjproject/pjsip/include/pjsip-simple/mwi.h \
+ /root/pjproject/pjsip/include/pjsip-simple/presence.h \
+ /root/pjproject/pjsip/include/pjsip-simple/pidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/xpidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/rpid.h \
+ /root/pjproject/pjsip/include/pjsip-simple/publish.h \
+ /root/pjproject/pjnath/include/pjnath.h \
+ /root/pjproject/pjnath/include/pjnath/nat_detect.h \
+ /root/pjproject/pjlib-util/include/pjlib-util.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/errno.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/getopt.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/base64.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/crc32.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns_server.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/string.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/json.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/stun_simple.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/pcap.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/http_client.h \
+ /root/pjproject/pjlib/include/pj/activesock.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_console.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_imp.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /root/pjproject/pjlib/include/pjlib.h \
+ /root/pjproject/pjlib/include/pj/addr_resolv.h \
+ /root/pjproject/pjlib/include/pj/array.h \
+ /root/pjproject/pjlib/include/pj/ctype.h \
+ /root/pjproject/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /root/pjproject/pjlib/include/pj/except.h \
+ /root/pjproject/pjlib/include/pj/compat/setjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/setjmp2.h \
+ /root/pjproject/pjlib/include/pj/log.h \
+ /root/pjproject/pjlib/include/pj/fifobuf.h \
+ /root/pjproject/pjlib/include/pj/file_access.h \
+ /root/pjproject/pjlib/include/pj/file_io.h \
+ /root/pjproject/pjlib/include/pj/guid.h \
+ /root/pjproject/pjlib/include/pj/hash.h \
+ /root/pjproject/pjlib/include/pj/ip_helper.h \
+ /root/pjproject/pjlib/include/pj/pool_buf.h \
+ /root/pjproject/pjlib/include/pj/rand.h \
+ /root/pjproject/pjlib/include/pj/rbtree.h \
+ /root/pjproject/pjlib/include/pj/sock_select.h \
+ /root/pjproject/pjlib/include/pj/unicode.h
+output/pjsua-i686-pc-linux-gnu/pjsua_app_config.o: ../src/pjsua/pjsua_app_config.c \
+ ../src/pjsua/pjsua_app_common.h \
+ /root/pjproject/pjsip/include/pjsua-lib/pjsua.h \
+ /root/pjproject/pjsip/include/pjsip.h \
+ /root/pjproject/pjsip/include/pjsip/sip_types.h \
+ /root/pjproject/pjsip/include/pjsip/sip_config.h \
+ /root/pjproject/pjlib/include/pj/types.h \
+ /root/pjproject/pjlib/include/pj/config.h \
+ /root/pjproject/pjlib/include/pj/compat/cc_gcc.h \
+ /root/pjproject/pjlib/include/pj/compat/os_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/m_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /root/pjproject/pjlib/include/pj/config_site.h \
+ /root/pjproject/pjlib/include/pj/config_site_sample.h \
+ /root/pjproject/pjsip/include/pjsip/sip_autoconf.h \
+ /root/pjproject/pjsip/include/pjsip/sip_errno.h \
+ /root/pjproject/pjlib/include/pj/errno.h \
+ /root/pjproject/pjlib/include/pj/compat/errno.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_uri.h \
+ /root/pjproject/pjlib/include/pj/list.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/types.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/config.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /root/pjproject/pjsip/include/pjsip/sip_tel_uri.h \
+ /root/pjproject/pjsip/include/pjsip/sip_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_multipart.h \
+ /root/pjproject/pjsip/include/pjsip/sip_parser.h \
+ /root/pjproject/pjsip/include/pjsip/sip_event.h \
+ /root/pjproject/pjlib/include/pj/timer.h \
+ /root/pjproject/pjlib/include/pj/lock.h \
+ /root/pjproject/pjsip/include/pjsip/sip_module.h \
+ /root/pjproject/pjsip/include/pjsip/sip_endpoint.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport.h \
+ /root/pjproject/pjsip/include/pjsip/sip_resolve.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns.h \
+ /root/pjproject/pjlib/include/pj/sock.h \
+ /root/pjproject/pjlib/include/pj/ioqueue.h \
+ /root/pjproject/pjsip/include/pjsip/sip_util.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_udp.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_loop.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tcp.h \
+ /root/pjproject/pjlib/include/pj/sock_qos.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tls.h \
+ /root/pjproject/pjlib/include/pj/pool.h \
+ /root/pjproject/pjlib/include/pj/ssl_sock.h \
+ /root/pjproject/pjlib/include/pj/string.h \
+ /root/pjproject/pjlib/include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_aka.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transaction.h \
+ /root/pjproject/pjsip/include/pjsip/sip_ua_layer.h \
+ /root/pjproject/pjsip/include/pjsip/sip_dialog.h \
+ /root/pjproject/pjlib/include/pj/assert.h \
+ /root/pjproject/pjlib/include/pj/compat/assert.h /usr/include/assert.h \
+ /root/pjproject/pjmedia/include/pjmedia.h \
+ /root/pjproject/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /root/pjproject/pjmedia/include/pjmedia/types.h \
+ /root/pjproject/pjmedia/include/pjmedia/config.h \
+ /root/pjproject/pjmedia/include/pjmedia/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/avi_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/port.h \
+ /root/pjproject/pjmedia/include/pjmedia/clock.h \
+ /root/pjproject/pjmedia/include/pjmedia/event.h \
+ /root/pjproject/pjmedia/include/pjmedia/format.h \
+ /root/pjproject/pjmedia/include/pjmedia/signatures.h \
+ /root/pjproject/pjmedia/include/pjmedia/frame.h \
+ /root/pjproject/pjlib/include/pj/os.h \
+ /root/pjproject/pjmedia/include/pjmedia/bidirectional.h \
+ /root/pjproject/pjmedia/include/pjmedia/circbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/conference.h \
+ /root/pjproject/pjmedia/include/pjmedia/converter.h \
+ /root/pjproject/pjmedia/include/pjmedia/delaybuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/endpoint.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport.h \
+ /root/pjproject/pjmedia/include/pjmedia/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/g711.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/types.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/jbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/master_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/mem_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/null_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/plc.h \
+ /root/pjproject/pjmedia/include/pjmedia/resample.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp_xr.h \
+ /root/pjproject/pjlib/include/pj/math.h \
+ /root/pjproject/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp_neg.h \
+ /root/pjproject/pjmedia/include/pjmedia/silencedet.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/splitcomb.h \
+ /root/pjproject/pjmedia/include/pjmedia/stereo.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream_common.h \
+ /root/pjproject/pjmedia/include/pjmedia/tonegen.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_ice.h \
+ /root/pjproject/pjnath/include/pjnath/ice_strans.h \
+ /root/pjproject/pjnath/include/pjnath/ice_session.h \
+ /root/pjproject/pjnath/include/pjnath/types.h \
+ /root/pjproject/pjnath/include/pjnath/config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_session.h \
+ /root/pjproject/pjnath/include/pjnath/stun_msg.h \
+ /root/pjproject/pjnath/include/pjnath/stun_auth.h \
+ /root/pjproject/pjnath/include/pjnath/stun_config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_transaction.h \
+ /root/pjproject/pjnath/include/pjnath/errno.h \
+ /root/pjproject/pjnath/include/pjnath/stun_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_session.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_loop.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_srtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_udp.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_port.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_tee.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_playlist.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/wave.h \
+ /root/pjproject/pjmedia/include/pjmedia/wsola.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/passthrough.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/l16.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/gsm.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/speex.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ilbc.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g722.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g7221.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/openh264.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/silk.h \
+ /root/pjproject/pjmedia/include/pjmedia_videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /root/pjproject/pjsip/include/pjsip_ua.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_inv.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_regc.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_replaces.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_xfer.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub.h \
+ /root/pjproject/pjsip/include/pjsip-simple/types.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_100rel.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_timer.h \
+ /root/pjproject/pjsip/include/pjsip_simple.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub_msg.h \
+ /root/pjproject/pjsip/include/pjsip-simple/iscomposing.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/xml.h \
+ /root/pjproject/pjsip/include/pjsip-simple/mwi.h \
+ /root/pjproject/pjsip/include/pjsip-simple/presence.h \
+ /root/pjproject/pjsip/include/pjsip-simple/pidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/xpidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/rpid.h \
+ /root/pjproject/pjsip/include/pjsip-simple/publish.h \
+ /root/pjproject/pjnath/include/pjnath.h \
+ /root/pjproject/pjnath/include/pjnath/nat_detect.h \
+ /root/pjproject/pjlib-util/include/pjlib-util.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/errno.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/getopt.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/base64.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/crc32.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns_server.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/string.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/json.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/stun_simple.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/pcap.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/http_client.h \
+ /root/pjproject/pjlib/include/pj/activesock.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_console.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_imp.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /root/pjproject/pjlib/include/pjlib.h \
+ /root/pjproject/pjlib/include/pj/addr_resolv.h \
+ /root/pjproject/pjlib/include/pj/array.h \
+ /root/pjproject/pjlib/include/pj/ctype.h \
+ /root/pjproject/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /root/pjproject/pjlib/include/pj/except.h \
+ /root/pjproject/pjlib/include/pj/compat/setjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/setjmp2.h \
+ /root/pjproject/pjlib/include/pj/log.h \
+ /root/pjproject/pjlib/include/pj/fifobuf.h \
+ /root/pjproject/pjlib/include/pj/file_access.h \
+ /root/pjproject/pjlib/include/pj/file_io.h \
+ /root/pjproject/pjlib/include/pj/guid.h \
+ /root/pjproject/pjlib/include/pj/hash.h \
+ /root/pjproject/pjlib/include/pj/ip_helper.h \
+ /root/pjproject/pjlib/include/pj/pool_buf.h \
+ /root/pjproject/pjlib/include/pj/rand.h \
+ /root/pjproject/pjlib/include/pj/rbtree.h \
+ /root/pjproject/pjlib/include/pj/sock_select.h \
+ /root/pjproject/pjlib/include/pj/unicode.h
+output/pjsua-i686-pc-linux-gnu/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_legacy.c \
+ /root/pjproject/pjsip/include/pjsua-lib/pjsua.h \
+ /root/pjproject/pjsip/include/pjsip.h \
+ /root/pjproject/pjsip/include/pjsip/sip_types.h \
+ /root/pjproject/pjsip/include/pjsip/sip_config.h \
+ /root/pjproject/pjlib/include/pj/types.h \
+ /root/pjproject/pjlib/include/pj/config.h \
+ /root/pjproject/pjlib/include/pj/compat/cc_gcc.h \
+ /root/pjproject/pjlib/include/pj/compat/os_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/m_auto.h \
+ /root/pjproject/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stddef.h \
+ /root/pjproject/pjlib/include/pj/config_site.h \
+ /root/pjproject/pjlib/include/pj/config_site_sample.h \
+ /root/pjproject/pjsip/include/pjsip/sip_autoconf.h \
+ /root/pjproject/pjsip/include/pjsip/sip_errno.h \
+ /root/pjproject/pjlib/include/pj/errno.h \
+ /root/pjproject/pjlib/include/pj/compat/errno.h \
+ /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5.2/include/stdarg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_uri.h \
+ /root/pjproject/pjlib/include/pj/list.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/types.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/config.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /root/pjproject/pjsip/include/pjsip/sip_tel_uri.h \
+ /root/pjproject/pjsip/include/pjsip/sip_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_multipart.h \
+ /root/pjproject/pjsip/include/pjsip/sip_parser.h \
+ /root/pjproject/pjsip/include/pjsip/sip_event.h \
+ /root/pjproject/pjlib/include/pj/timer.h \
+ /root/pjproject/pjlib/include/pj/lock.h \
+ /root/pjproject/pjsip/include/pjsip/sip_module.h \
+ /root/pjproject/pjsip/include/pjsip/sip_endpoint.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport.h \
+ /root/pjproject/pjsip/include/pjsip/sip_resolve.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns.h \
+ /root/pjproject/pjlib/include/pj/sock.h \
+ /root/pjproject/pjlib/include/pj/ioqueue.h \
+ /root/pjproject/pjsip/include/pjsip/sip_util.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_udp.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_loop.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tcp.h \
+ /root/pjproject/pjlib/include/pj/sock_qos.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transport_tls.h \
+ /root/pjproject/pjlib/include/pj/pool.h \
+ /root/pjproject/pjlib/include/pj/ssl_sock.h \
+ /root/pjproject/pjlib/include/pj/string.h \
+ /root/pjproject/pjlib/include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/stdio2.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_msg.h \
+ /root/pjproject/pjsip/include/pjsip/sip_auth_aka.h \
+ /root/pjproject/pjsip/include/pjsip/sip_transaction.h \
+ /root/pjproject/pjsip/include/pjsip/sip_ua_layer.h \
+ /root/pjproject/pjsip/include/pjsip/sip_dialog.h \
+ /root/pjproject/pjlib/include/pj/assert.h \
+ /root/pjproject/pjlib/include/pj/compat/assert.h /usr/include/assert.h \
+ /root/pjproject/pjmedia/include/pjmedia.h \
+ /root/pjproject/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /root/pjproject/pjmedia/include/pjmedia/types.h \
+ /root/pjproject/pjmedia/include/pjmedia/config.h \
+ /root/pjproject/pjmedia/include/pjmedia/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/avi_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/port.h \
+ /root/pjproject/pjmedia/include/pjmedia/clock.h \
+ /root/pjproject/pjmedia/include/pjmedia/event.h \
+ /root/pjproject/pjmedia/include/pjmedia/format.h \
+ /root/pjproject/pjmedia/include/pjmedia/signatures.h \
+ /root/pjproject/pjmedia/include/pjmedia/frame.h \
+ /root/pjproject/pjlib/include/pj/os.h \
+ /root/pjproject/pjmedia/include/pjmedia/bidirectional.h \
+ /root/pjproject/pjmedia/include/pjmedia/circbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/conference.h \
+ /root/pjproject/pjmedia/include/pjmedia/converter.h \
+ /root/pjproject/pjmedia/include/pjmedia/delaybuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo.h \
+ /root/pjproject/pjmedia/include/pjmedia/echo_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/endpoint.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport.h \
+ /root/pjproject/pjmedia/include/pjmedia/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/g711.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/types.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/config_auto.h \
+ /root/pjproject/pjmedia/include/pjmedia/jbuf.h \
+ /root/pjproject/pjmedia/include/pjmedia/master_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/mem_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/null_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/plc.h \
+ /root/pjproject/pjmedia/include/pjmedia/resample.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtcp_xr.h \
+ /root/pjproject/pjlib/include/pj/math.h \
+ /root/pjproject/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /root/pjproject/pjmedia/include/pjmedia/rtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/sdp_neg.h \
+ /root/pjproject/pjmedia/include/pjmedia/silencedet.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-audiodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/sound_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/splitcomb.h \
+ /root/pjproject/pjmedia/include/pjmedia/stereo.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_codec.h \
+ /root/pjproject/pjmedia/include/pjmedia/stream_common.h \
+ /root/pjproject/pjmedia/include/pjmedia/tonegen.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_ice.h \
+ /root/pjproject/pjnath/include/pjnath/ice_strans.h \
+ /root/pjproject/pjnath/include/pjnath/ice_session.h \
+ /root/pjproject/pjnath/include/pjnath/types.h \
+ /root/pjproject/pjnath/include/pjnath/config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_session.h \
+ /root/pjproject/pjnath/include/pjnath/stun_msg.h \
+ /root/pjproject/pjnath/include/pjnath/stun_auth.h \
+ /root/pjproject/pjnath/include/pjnath/stun_config.h \
+ /root/pjproject/pjnath/include/pjnath/stun_transaction.h \
+ /root/pjproject/pjnath/include/pjnath/errno.h \
+ /root/pjproject/pjnath/include/pjnath/stun_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_sock.h \
+ /root/pjproject/pjnath/include/pjnath/turn_session.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_loop.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_srtp.h \
+ /root/pjproject/pjmedia/include/pjmedia/transport_udp.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_port.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/config.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/errno.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_stream.h \
+ /root/pjproject/pjmedia/include/pjmedia/vid_tee.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_playlist.h \
+ /root/pjproject/pjmedia/include/pjmedia/wav_port.h \
+ /root/pjproject/pjmedia/include/pjmedia/wave.h \
+ /root/pjproject/pjmedia/include/pjmedia/wsola.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/passthrough.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/l16.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/gsm.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/speex.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ilbc.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g722.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/g7221.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/openh264.h \
+ /root/pjproject/pjmedia/include/pjmedia-codec/silk.h \
+ /root/pjproject/pjmedia/include/pjmedia_videodev.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /root/pjproject/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /root/pjproject/pjsip/include/pjsip_ua.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_inv.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_regc.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_replaces.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_xfer.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub.h \
+ /root/pjproject/pjsip/include/pjsip-simple/types.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_100rel.h \
+ /root/pjproject/pjsip/include/pjsip-ua/sip_timer.h \
+ /root/pjproject/pjsip/include/pjsip_simple.h \
+ /root/pjproject/pjsip/include/pjsip-simple/evsub_msg.h \
+ /root/pjproject/pjsip/include/pjsip-simple/iscomposing.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/xml.h \
+ /root/pjproject/pjsip/include/pjsip-simple/mwi.h \
+ /root/pjproject/pjsip/include/pjsip-simple/presence.h \
+ /root/pjproject/pjsip/include/pjsip-simple/pidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/xpidf.h \
+ /root/pjproject/pjsip/include/pjsip-simple/rpid.h \
+ /root/pjproject/pjsip/include/pjsip-simple/publish.h \
+ /root/pjproject/pjnath/include/pjnath.h \
+ /root/pjproject/pjnath/include/pjnath/nat_detect.h \
+ /root/pjproject/pjlib-util/include/pjlib-util.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/errno.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/getopt.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/base64.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/crc32.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/md5.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/sha1.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/dns_server.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/string.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/json.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/stun_simple.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/pcap.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/http_client.h \
+ /root/pjproject/pjlib/include/pj/activesock.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_console.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_imp.h \
+ /root/pjproject/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /root/pjproject/pjlib/include/pjlib.h \
+ /root/pjproject/pjlib/include/pj/addr_resolv.h \
+ /root/pjproject/pjlib/include/pj/array.h \
+ /root/pjproject/pjlib/include/pj/ctype.h \
+ /root/pjproject/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /root/pjproject/pjlib/include/pj/except.h \
+ /root/pjproject/pjlib/include/pj/compat/setjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/setjmp2.h \
+ /root/pjproject/pjlib/include/pj/log.h \
+ /root/pjproject/pjlib/include/pj/fifobuf.h \
+ /root/pjproject/pjlib/include/pj/file_access.h \
+ /root/pjproject/pjlib/include/pj/file_io.h \
+ /root/pjproject/pjlib/include/pj/guid.h \
+ /root/pjproject/pjlib/include/pj/hash.h \
+ /root/pjproject/pjlib/include/pj/ip_helper.h \
+ /root/pjproject/pjlib/include/pj/pool_buf.h \
+ /root/pjproject/pjlib/include/pj/rand.h \
+ /root/pjproject/pjlib/include/pj/rbtree.h \
+ /root/pjproject/pjlib/include/pj/sock_select.h \
+ /root/pjproject/pjlib/include/pj/unicode.h \
+ ../src/pjsua/pjsua_app_common.h
+../bin/pjsua-i686-pc-linux-gnu: /root/pjproject/pjsip/lib/libpjsua-i686-pc-linux-gnu.a /root/pjproject/pjsip/lib/libpjsip-ua-i686-pc-linux-gnu.a /root/pjproject/pjsip/lib/libpjsip-simple-i686-pc-linux-gnu.a /root/pjproject/pjsip/lib/libpjsip-i686-pc-linux-gnu.a /root/pjproject/pjmedia/lib/libpjmedia-codec-i686-pc-linux-gnu.a /root/pjproject/pjmedia/lib/libpjmedia-videodev-i686-pc-linux-gnu.a /root/pjproject/pjmedia/lib/libpjmedia-i686-pc-linux-gnu.a /root/pjproject/pjmedia/lib/libpjmedia-audiodev-i686-pc-linux-gnu.a /root/pjproject/pjnath/lib/libpjnath-i686-pc-linux-gnu.a /root/pjproject/pjlib-util/lib/libpjlib-util-i686-pc-linux-gnu.a  /root/pjproject/third_party/lib/libsrtp-i686-pc-linux-gnu.a /root/pjproject/third_party/lib/libresample-i686-pc-linux-gnu.a /root/pjproject/third_party/lib/libgsmcodec-i686-pc-linux-gnu.a /root/pjproject/third_party/lib/libspeex-i686-pc-linux-gnu.a /root/pjproject/third_party/lib/libilbccodec-i686-pc-linux-gnu.a /root/pjproject/third_party/lib/libg7221codec-i686-pc-linux-gnu.a /root/pjproject/third_party/lib/libportaudio-i686-pc-linux-gnu.a /root/pjproject/pjlib/lib/libpj-i686-pc-linux-gnu.a
